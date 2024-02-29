@@ -9,7 +9,7 @@ export default function HeroSection() {
         <section className="w-full mx-auto h-screen">
             <main className={styles.heroImg}>
                 <div className={styles.heroText}>
-                    <h1 className="text-5xl font-bold">Selamat Datang di 12 TKJ 3</h1>
+                    <h1 className="text-5xl font-bold mt-3 md:mt-0">Selamat Datang di 12 TKJ 3</h1>
                     <p className="py-3 text-lg">Kelas yang paling disayangi oleh guru-guru</p>
                     <Button variant="secondary" asChild>
                         <Link href="/profiles">Jelajahi TKJ 3</Link>
