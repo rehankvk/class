@@ -7,11 +7,11 @@ export default function Footer() {
     const year = new Date().getFullYear()
 
     return (
-        <footer class="w-full p-8 bg-white">
+        <footer className="w-full p-8 bg-white">
             <div
-                class="flex flex-row flex-wrap items-center justify-center text-center bg-white gap-y-6 gap-x-12 md:justify-between">
+                className="flex flex-row flex-wrap items-center justify-center text-center bg-white gap-y-6 gap-x-12 md:justify-between">
                 <Image width={40} height={40} src={'/next.svg'} alt="logo-footer" />
-                <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
+                <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
                     <li>
                         <Link href={'/'}>Home</Link>
                     </li>
@@ -23,8 +23,8 @@ export default function Footer() {
                     </li>
                 </ul>
             </div>
-            <span class="block my-8 border-t border-blue-gray-50" />
-            <p class="block font-sans text-base antialiased font-normal leading-relaxed text-center text-blue-gray-900">
+            <span className="block my-8 border-t border-blue-gray-50" />
+            <p className="block font-sans text-base antialiased font-normal leading-relaxed text-center text-blue-gray-900">
                 © {year} 12 TKJ 3.
             </p>
         </footer>
